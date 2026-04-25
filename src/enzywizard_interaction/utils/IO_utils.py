@@ -203,7 +203,12 @@ def load_substrate_name_and_mol_3d_list(substrate_names: str,substrate_dir: str 
     mol_3d_list: List[Chem.Mol] = []
 
     for substrate_name in substrate_name_list:
-        sdf_path = substrate_dir / f"{substrate_name}.sdf"
+        substrate_file_stem = get_optimized_filename(substrate_name)
+        if not substrate_file_stem:
+            logger.print(f"[ERROR] Invalid substrate filename generated from substrate: {substrate_name}")
+            return None
+
+        sdf_path = substrate_dir / f"{substrate_file_stem}.sdf"
 
         if not sdf_path.exists() or not sdf_path.is_file():
             logger.print(f"[ERROR] Substrate SDF not found: {sdf_path}")
