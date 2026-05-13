@@ -13,6 +13,7 @@ from ..utils.interaction_utils import collect_substrate_vdw_atoms,collect_protei
 from ..utils.interaction_utils import collect_protein_pipi_rings, collect_substrate_pipi_rings, find_pipi_hits_between_ring_entries, min_angle_0_90, angle_deg_between_vectors, classify_pipi_geometry
 from ..utils.interaction_utils import collect_protein_pication_centers, classify_pication_arg_geometry, find_pication_hits_between_ring_entries_and_cation_entries, collect_substrate_pication_centers
 from ..utils.interaction_utils import collect_protein_disulfide_sites, find_disulfide_bond_hits
+from ..utils.interaction_utils import postprocess_interaction_report_to_schema
 from ..utils.sequence_utils import normalize_aa_name_to_one_letter
 
 
@@ -1413,10 +1414,15 @@ def summarize_interaction_counts(interaction_list: List[Dict[str, Any]],logger) 
     return result
 
 
-def generate_interaction_report(interaction_list: List[Dict[str, Any]], interaction_statistics: Dict[str, Dict[str, Dict[str, int]]]) -> dict:
+def generate_interaction_report(
+    interaction_list: List[Dict[str, Any]],
+    interaction_statistics: Dict[str, Dict[str, Dict[str, int]]],
+) -> dict:
 
-    return {
+    raw_report = {
         "output_type": "enzywizard_interaction",
         "interactions": interaction_list,
         "interactions_statistics": interaction_statistics,
     }
+
+    return postprocess_interaction_report_to_schema(raw_report)

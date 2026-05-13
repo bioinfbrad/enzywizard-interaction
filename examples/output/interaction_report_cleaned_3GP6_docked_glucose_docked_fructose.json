@@ -1,3687 +1,3648 @@
 {
-  "output_type": "enzywizard_interaction",
-  "interactions": [
+  "report_type": "enzywizard_interaction",
+  "molecular_interactions": [
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 2,
-        "aa_name": "N",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 1,
+        "residue_name": "M",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 5,
-        "aa_name": "E",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 5,
+        "residue_name": "E",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 2,
-        "aa_name": "N",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 2,
+        "residue_name": "N",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 6,
-        "aa_name": "W",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 5,
+        "residue_name": "E",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 2,
-        "aa_name": "N",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 2,
+        "residue_name": "N",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 6,
-        "aa_name": "W",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 6,
+        "residue_name": "W",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 3,
-        "aa_name": "A",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 2,
+        "residue_name": "N",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 7,
-        "aa_name": "M",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 6,
+        "residue_name": "W",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 4,
-        "aa_name": "D",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 3,
+        "residue_name": "A",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 8,
-        "aa_name": "T",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 7,
+        "residue_name": "M",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 4,
-        "aa_name": "D",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 4,
+        "residue_name": "D",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 8,
-        "aa_name": "T",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 8,
+        "residue_name": "T",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 5,
-        "aa_name": "E",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 4,
+        "residue_name": "D",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 9,
-        "aa_name": "T",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 8,
+        "residue_name": "T",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 6,
-        "aa_name": "W",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 5,
+        "residue_name": "E",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 10,
-        "aa_name": "F",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 9,
+        "residue_name": "T",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "PIPISTACK",
-      "node1": {
-        "aa_index": 6,
-        "aa_name": "W",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 6,
+        "residue_name": "W",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 10,
-        "aa_name": "F",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 10,
+        "residue_name": "F",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "PIPISTACK",
-      "node1": {
-        "aa_index": 6,
-        "aa_name": "W",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "PIPISTACK",
+      "source_node": {
+        "residue_index": 6,
+        "residue_name": "W",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 100,
-        "aa_name": "F",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 10,
+        "residue_name": "F",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 7,
-        "aa_name": "M",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "PIPISTACK",
+      "source_node": {
+        "residue_index": 6,
+        "residue_name": "W",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 11,
-        "aa_name": "R",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 100,
+        "residue_name": "F",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 7,
-        "aa_name": "M",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 7,
+        "residue_name": "M",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 11,
-        "aa_name": "R",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 11,
+        "residue_name": "R",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 8,
-        "aa_name": "T",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 8,
+        "residue_name": "T",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 12,
-        "aa_name": "E",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 12,
+        "residue_name": "E",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 8,
-        "aa_name": "T",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 8,
+        "residue_name": "T",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 12,
-        "aa_name": "E",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 12,
+        "residue_name": "E",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 9,
-        "aa_name": "T",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 9,
+        "residue_name": "T",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 13,
-        "aa_name": "N",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 13,
+        "residue_name": "N",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 9,
-        "aa_name": "T",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 9,
+        "residue_name": "T",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 13,
-        "aa_name": "N",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 13,
+        "residue_name": "N",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 10,
-        "aa_name": "F",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 10,
+        "residue_name": "F",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 14,
-        "aa_name": "I",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 14,
+        "residue_name": "I",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 10,
-        "aa_name": "F",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 10,
+        "residue_name": "F",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 13,
-        "aa_name": "N",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 102,
+        "residue_name": "A",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 10,
-        "aa_name": "F",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 10,
+        "residue_name": "F",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 14,
-        "aa_name": "I",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 13,
+        "residue_name": "N",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "PIPISTACK",
-      "node1": {
-        "aa_index": 10,
-        "aa_name": "F",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "PIPISTACK",
+      "source_node": {
+        "residue_index": 10,
+        "residue_name": "F",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 100,
-        "aa_name": "F",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 100,
+        "residue_name": "F",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "PIPISTACK",
-      "node1": {
-        "aa_index": 10,
-        "aa_name": "F",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "PIPISTACK",
+      "source_node": {
+        "residue_index": 10,
+        "residue_name": "F",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 80,
-        "aa_name": "Y",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 80,
+        "residue_name": "Y",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 11,
-        "aa_name": "R",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 11,
+        "residue_name": "R",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 15,
-        "aa_name": "A",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 15,
+        "residue_name": "A",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 12,
-        "aa_name": "E",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 12,
+        "residue_name": "E",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 16,
-        "aa_name": "Q",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 16,
+        "residue_name": "Q",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 13,
-        "aa_name": "N",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 13,
+        "residue_name": "N",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 17,
-        "aa_name": "T",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 17,
+        "residue_name": "T",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 13,
-        "aa_name": "N",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 13,
+        "residue_name": "N",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 52,
-        "aa_name": "R",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 52,
+        "residue_name": "R",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 14,
-        "aa_name": "I",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 13,
+        "residue_name": "N",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 17,
-        "aa_name": "T",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 17,
+        "residue_name": "T",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 14,
-        "aa_name": "I",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 13,
+        "residue_name": "N",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 18,
-        "aa_name": "W",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 52,
+        "residue_name": "R",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 14,
-        "aa_name": "I",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 14,
+        "residue_name": "I",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 17,
-        "aa_name": "T",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 17,
+        "residue_name": "T",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 14,
-        "aa_name": "I",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 14,
+        "residue_name": "I",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 17,
-        "aa_name": "T",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 18,
+        "residue_name": "W",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 14,
-        "aa_name": "I",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 14,
+        "residue_name": "I",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 62,
-        "aa_name": "L",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 17,
+        "residue_name": "T",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 15,
-        "aa_name": "A",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 14,
+        "residue_name": "I",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 19,
-        "aa_name": "Q",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 17,
+        "residue_name": "T",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 15,
-        "aa_name": "A",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 14,
+        "residue_name": "I",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 19,
-        "aa_name": "Q",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 62,
+        "residue_name": "L",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 16,
-        "aa_name": "Q",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 15,
+        "residue_name": "A",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 20,
-        "aa_name": "Q",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 19,
+        "residue_name": "Q",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 16,
-        "aa_name": "Q",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 15,
+        "residue_name": "A",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 20,
-        "aa_name": "Q",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 19,
+        "residue_name": "Q",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 16,
-        "aa_name": "Q",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 16,
+        "residue_name": "Q",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 52,
-        "aa_name": "R",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 20,
+        "residue_name": "Q",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 17,
-        "aa_name": "T",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 16,
+        "residue_name": "Q",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 52,
-        "aa_name": "R",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 20,
+        "residue_name": "Q",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 17,
-        "aa_name": "T",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 16,
+        "residue_name": "Q",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 21,
-        "aa_name": "P",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 52,
+        "residue_name": "R",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 17,
-        "aa_name": "T",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 17,
+        "residue_name": "T",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 52,
-        "aa_name": "R",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 52,
+        "residue_name": "R",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 18,
-        "aa_name": "W",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 17,
+        "residue_name": "T",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 62,
-        "aa_name": "L",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 21,
+        "residue_name": "P",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 21,
-        "aa_name": "P",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 17,
+        "residue_name": "T",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 50,
-        "aa_name": "L",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 52,
+        "residue_name": "R",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 22,
-        "aa_name": "E",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 18,
+        "residue_name": "W",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 51,
-        "aa_name": "S",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 62,
+        "residue_name": "L",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 22,
-        "aa_name": "E",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 21,
+        "residue_name": "P",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 53,
-        "aa_name": "W",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 50,
+        "residue_name": "L",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 22,
-        "aa_name": "E",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 22,
+        "residue_name": "E",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 51,
-        "aa_name": "S",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 51,
+        "residue_name": "S",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 22,
-        "aa_name": "E",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 22,
+        "residue_name": "E",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 52,
-        "aa_name": "R",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 53,
+        "residue_name": "W",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 23,
-        "aa_name": "H",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 22,
+        "residue_name": "E",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 155,
-        "aa_name": "L",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 51,
+        "residue_name": "S",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 23,
-        "aa_name": "H",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 22,
+        "residue_name": "E",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 51,
-        "aa_name": "S",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 52,
+        "residue_name": "R",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 23,
-        "aa_name": "H",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 23,
+        "residue_name": "H",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 51,
-        "aa_name": "S",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 155,
+        "residue_name": "L",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 23,
-        "aa_name": "H",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 23,
+        "residue_name": "H",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 153,
-        "aa_name": "Q",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 51,
+        "residue_name": "S",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "PIPISTACK",
-      "node1": {
-        "aa_index": 23,
-        "aa_name": "H",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 23,
+        "residue_name": "H",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 53,
-        "aa_name": "W",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 51,
+        "residue_name": "S",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 24,
-        "aa_name": "Y",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 23,
+        "residue_name": "H",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 154,
-        "aa_name": "F",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 153,
+        "residue_name": "Q",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 24,
-        "aa_name": "Y",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "PIPISTACK",
+      "source_node": {
+        "residue_index": 23,
+        "residue_name": "H",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 154,
-        "aa_name": "F",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 53,
+        "residue_name": "W",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 24,
-        "aa_name": "Y",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 24,
+        "residue_name": "Y",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 154,
-        "aa_name": "F",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 154,
+        "residue_name": "F",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 24,
-        "aa_name": "Y",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 24,
+        "residue_name": "Y",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 48,
-        "aa_name": "F",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 154,
+        "residue_name": "F",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 24,
-        "aa_name": "Y",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 24,
+        "residue_name": "Y",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 49,
-        "aa_name": "G",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 154,
+        "residue_name": "F",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "PIPISTACK",
-      "node1": {
-        "aa_index": 24,
-        "aa_name": "Y",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 24,
+        "residue_name": "Y",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 154,
-        "aa_name": "F",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 48,
+        "residue_name": "F",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "PIPISTACK",
-      "node1": {
-        "aa_index": 24,
-        "aa_name": "Y",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 24,
+        "residue_name": "Y",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 48,
-        "aa_name": "F",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 49,
+        "residue_name": "G",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 25,
-        "aa_name": "D",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "PIPISTACK",
+      "source_node": {
+        "residue_index": 24,
+        "residue_name": "Y",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 151,
-        "aa_name": "R",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 154,
+        "residue_name": "F",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 25,
-        "aa_name": "D",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "PIPISTACK",
+      "source_node": {
+        "residue_index": 24,
+        "residue_name": "Y",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 49,
-        "aa_name": "G",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 48,
+        "residue_name": "F",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 25,
-        "aa_name": "D",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 25,
+        "residue_name": "D",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 49,
-        "aa_name": "G",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 151,
+        "residue_name": "R",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 25,
-        "aa_name": "D",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 25,
+        "residue_name": "D",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 51,
-        "aa_name": "S",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 49,
+        "residue_name": "G",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 25,
-        "aa_name": "D",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 25,
+        "residue_name": "D",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 151,
-        "aa_name": "R",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 49,
+        "residue_name": "G",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 25,
-        "aa_name": "D",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 25,
+        "residue_name": "D",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 151,
-        "aa_name": "R",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 51,
+        "residue_name": "S",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 25,
-        "aa_name": "D",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 25,
+        "residue_name": "D",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 152,
-        "aa_name": "F",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 151,
+        "residue_name": "R",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 25,
-        "aa_name": "D",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 25,
+        "residue_name": "D",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 153,
-        "aa_name": "Q",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 151,
+        "residue_name": "R",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 25,
-        "aa_name": "D",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 25,
+        "residue_name": "D",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 48,
-        "aa_name": "F",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 152,
+        "residue_name": "F",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 25,
-        "aa_name": "D",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 25,
+        "residue_name": "D",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 49,
-        "aa_name": "G",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 153,
+        "residue_name": "Q",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 26,
-        "aa_name": "L",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 25,
+        "residue_name": "D",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 152,
-        "aa_name": "F",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 48,
+        "residue_name": "F",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 26,
-        "aa_name": "L",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 25,
+        "residue_name": "D",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 152,
-        "aa_name": "F",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 49,
+        "residue_name": "G",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 26,
-        "aa_name": "L",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 26,
+        "residue_name": "L",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 152,
-        "aa_name": "F",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 152,
+        "residue_name": "F",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 27,
-        "aa_name": "Y",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 26,
+        "residue_name": "L",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 47,
-        "aa_name": "G",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 152,
+        "residue_name": "F",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 27,
-        "aa_name": "Y",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 26,
+        "residue_name": "L",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 47,
-        "aa_name": "G",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 152,
+        "residue_name": "F",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 27,
-        "aa_name": "Y",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 27,
+        "residue_name": "Y",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 46,
-        "aa_name": "G",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 47,
+        "residue_name": "G",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "PIPISTACK",
-      "node1": {
-        "aa_index": 27,
-        "aa_name": "Y",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 27,
+        "residue_name": "Y",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 149,
-        "aa_name": "W",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 47,
+        "residue_name": "G",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "PIPISTACK",
-      "node1": {
-        "aa_index": 27,
-        "aa_name": "Y",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 27,
+        "residue_name": "Y",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 63,
-        "aa_name": "Y",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 46,
+        "residue_name": "G",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 28,
-        "aa_name": "I",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "PIPISTACK",
+      "source_node": {
+        "residue_index": 27,
+        "residue_name": "Y",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 150,
-        "aa_name": "M",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 149,
+        "residue_name": "W",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 28,
-        "aa_name": "I",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "PIPISTACK",
+      "source_node": {
+        "residue_index": 27,
+        "residue_name": "Y",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 150,
-        "aa_name": "M",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 63,
+        "residue_name": "Y",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 28,
-        "aa_name": "I",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 28,
+        "residue_name": "I",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 149,
-        "aa_name": "W",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 150,
+        "residue_name": "M",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 29,
-        "aa_name": "P",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 28,
+        "residue_name": "I",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 149,
-        "aa_name": "W",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 150,
+        "residue_name": "M",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 29,
-        "aa_name": "P",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 28,
+        "residue_name": "I",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 43,
-        "aa_name": "P",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 149,
+        "residue_name": "W",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 29,
-        "aa_name": "P",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 29,
+        "residue_name": "P",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 46,
-        "aa_name": "G",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 149,
+        "residue_name": "W",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 30,
-        "aa_name": "A",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 29,
+        "residue_name": "P",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 148,
-        "aa_name": "A",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 43,
+        "residue_name": "P",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 30,
-        "aa_name": "A",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 29,
+        "residue_name": "P",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 149,
-        "aa_name": "W",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 46,
+        "residue_name": "G",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 31,
-        "aa_name": "I",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 30,
+        "residue_name": "A",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 148,
-        "aa_name": "A",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 148,
+        "residue_name": "A",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 31,
-        "aa_name": "I",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 30,
+        "residue_name": "A",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 148,
-        "aa_name": "A",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 149,
+        "residue_name": "W",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 31,
-        "aa_name": "I",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 31,
+        "residue_name": "I",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 40,
-        "aa_name": "N",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 148,
+        "residue_name": "A",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 32,
-        "aa_name": "T",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 31,
+        "residue_name": "I",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 41,
-        "aa_name": "E",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 148,
+        "residue_name": "A",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 32,
-        "aa_name": "T",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 31,
+        "residue_name": "I",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 147,
-        "aa_name": "F",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 40,
+        "residue_name": "N",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 32,
-        "aa_name": "T",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 32,
+        "residue_name": "T",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 40,
-        "aa_name": "N",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 41,
+        "residue_name": "E",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 33,
-        "aa_name": "W",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 32,
+        "residue_name": "T",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 146,
-        "aa_name": "Y",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 147,
+        "residue_name": "F",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 33,
-        "aa_name": "W",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 32,
+        "residue_name": "T",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 146,
-        "aa_name": "Y",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 40,
+        "residue_name": "N",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 33,
-        "aa_name": "W",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 33,
+        "residue_name": "W",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 145,
-        "aa_name": "V",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 146,
+        "residue_name": "Y",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "PIPISTACK",
-      "node1": {
-        "aa_index": 33,
-        "aa_name": "W",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 33,
+        "residue_name": "W",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 146,
-        "aa_name": "Y",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 146,
+        "residue_name": "Y",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 34,
-        "aa_name": "H",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 33,
+        "residue_name": "W",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 39,
-        "aa_name": "Y",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 145,
+        "residue_name": "V",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "PIPISTACK",
-      "node1": {
-        "aa_index": 34,
-        "aa_name": "H",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "PIPISTACK",
+      "source_node": {
+        "residue_index": 33,
+        "residue_name": "W",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 39,
-        "aa_name": "Y",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 146,
+        "residue_name": "Y",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 35,
-        "aa_name": "A",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "PIPISTACK",
+      "source_node": {
+        "residue_index": 34,
+        "residue_name": "H",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 144,
-        "aa_name": "N",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 39,
+        "residue_name": "Y",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 35,
-        "aa_name": "A",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 35,
+        "residue_name": "A",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 146,
-        "aa_name": "Y",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 144,
+        "residue_name": "N",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 36,
-        "aa_name": "R",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 35,
+        "residue_name": "A",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 39,
-        "aa_name": "Y",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 146,
+        "residue_name": "Y",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 36,
-        "aa_name": "R",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 36,
+        "residue_name": "R",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 144,
-        "aa_name": "N",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 39,
+        "residue_name": "Y",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 44,
-        "aa_name": "W",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 36,
+        "residue_name": "R",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 68,
-        "aa_name": "K",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 144,
+        "residue_name": "N",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 44,
-        "aa_name": "W",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 44,
+        "residue_name": "W",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 67,
-        "aa_name": "F",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 68,
+        "residue_name": "K",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 44,
-        "aa_name": "W",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 44,
+        "residue_name": "W",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 74,
-        "aa_name": "W",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 67,
+        "residue_name": "F",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "PIPISTACK",
-      "node1": {
-        "aa_index": 44,
-        "aa_name": "W",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 44,
+        "residue_name": "W",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 74,
-        "aa_name": "W",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 74,
+        "residue_name": "W",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 45,
-        "aa_name": "G",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "PIPISTACK",
+      "source_node": {
+        "residue_index": 44,
+        "residue_name": "W",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 66,
-        "aa_name": "A",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 74,
+        "residue_name": "W",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 46,
-        "aa_name": "G",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 45,
+        "residue_name": "G",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 66,
-        "aa_name": "A",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 66,
+        "residue_name": "A",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 46,
-        "aa_name": "G",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 46,
+        "residue_name": "G",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 66,
-        "aa_name": "A",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 66,
+        "residue_name": "A",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 47,
-        "aa_name": "G",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 46,
+        "residue_name": "G",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 64,
-        "aa_name": "A",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 66,
+        "residue_name": "A",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 48,
-        "aa_name": "F",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 47,
+        "residue_name": "G",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 64,
-        "aa_name": "A",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 64,
+        "residue_name": "A",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 48,
-        "aa_name": "F",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 48,
+        "residue_name": "F",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 64,
-        "aa_name": "A",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 64,
+        "residue_name": "A",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 50,
-        "aa_name": "L",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 48,
+        "residue_name": "F",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 62,
-        "aa_name": "L",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 64,
+        "residue_name": "A",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 50,
-        "aa_name": "L",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 50,
+        "residue_name": "L",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 62,
-        "aa_name": "L",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 62,
+        "residue_name": "L",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 50,
-        "aa_name": "L",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 50,
+        "residue_name": "L",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 61,
-        "aa_name": "G",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 62,
+        "residue_name": "L",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 51,
-        "aa_name": "S",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 50,
+        "residue_name": "L",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 59,
-        "aa_name": "W",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 61,
+        "residue_name": "G",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 51,
-        "aa_name": "S",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 51,
+        "residue_name": "S",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 59,
-        "aa_name": "W",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 59,
+        "residue_name": "W",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 52,
-        "aa_name": "R",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 52,
+        "residue_name": "R",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 60,
-        "aa_name": "H",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 60,
+        "residue_name": "H",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 52,
-        "aa_name": "R",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 52,
+        "residue_name": "R",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 60,
-        "aa_name": "H",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 60,
+        "residue_name": "H",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 52,
-        "aa_name": "R",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 52,
+        "residue_name": "R",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 59,
-        "aa_name": "W",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 59,
+        "residue_name": "W",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 52,
-        "aa_name": "R",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 52,
+        "residue_name": "R",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 60,
-        "aa_name": "H",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 60,
+        "residue_name": "H",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "PICATION",
-      "node1": {
-        "aa_index": 52,
-        "aa_name": "R",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "PICATION",
+      "source_node": {
+        "residue_index": 52,
+        "residue_name": "R",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 60,
-        "aa_name": "H",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 60,
+        "residue_name": "H",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 53,
-        "aa_name": "W",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 53,
+        "residue_name": "W",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 153,
-        "aa_name": "Q",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 153,
+        "residue_name": "Q",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 53,
-        "aa_name": "W",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 53,
+        "residue_name": "W",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 59,
-        "aa_name": "W",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 59,
+        "residue_name": "W",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 53,
-        "aa_name": "W",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 53,
+        "residue_name": "W",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 59,
-        "aa_name": "W",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 59,
+        "residue_name": "W",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 53,
-        "aa_name": "W",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 53,
+        "residue_name": "W",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 87,
-        "aa_name": "R",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 85,
+        "residue_name": "T",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "PIPISTACK",
-      "node1": {
-        "aa_index": 53,
-        "aa_name": "W",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "PIPISTACK",
+      "source_node": {
+        "residue_index": 53,
+        "residue_name": "W",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 59,
-        "aa_name": "W",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 59,
+        "residue_name": "W",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "PIPISTACK",
-      "node1": {
-        "aa_index": 53,
-        "aa_name": "W",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "PIPISTACK",
+      "source_node": {
+        "residue_index": 53,
+        "residue_name": "W",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 95,
-        "aa_name": "H",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 95,
+        "residue_name": "H",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 54,
-        "aa_name": "D",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 54,
+        "residue_name": "D",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 57,
-        "aa_name": "G",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 57,
+        "residue_name": "G",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 54,
-        "aa_name": "D",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 54,
+        "residue_name": "D",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 58,
-        "aa_name": "N",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 58,
+        "residue_name": "N",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 54,
-        "aa_name": "D",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 54,
+        "residue_name": "D",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 58,
-        "aa_name": "N",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 58,
+        "residue_name": "N",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 54,
-        "aa_name": "D",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 54,
+        "residue_name": "D",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 57,
-        "aa_name": "G",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 57,
+        "residue_name": "G",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 54,
-        "aa_name": "D",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 54,
+        "residue_name": "D",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 58,
-        "aa_name": "N",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 58,
+        "residue_name": "N",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 54,
-        "aa_name": "D",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 54,
+        "residue_name": "D",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 60,
-        "aa_name": "H",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 60,
+        "residue_name": "H",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 57,
-        "aa_name": "G",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 57,
+        "residue_name": "G",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 87,
-        "aa_name": "R",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 87,
+        "residue_name": "R",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 57,
-        "aa_name": "G",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 57,
+        "residue_name": "G",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 87,
-        "aa_name": "R",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 87,
+        "residue_name": "R",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 58,
-        "aa_name": "N",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 58,
+        "residue_name": "N",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 85,
-        "aa_name": "T",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 85,
+        "residue_name": "T",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 58,
-        "aa_name": "N",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 58,
+        "residue_name": "N",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 85,
-        "aa_name": "T",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 85,
+        "residue_name": "T",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 59,
-        "aa_name": "W",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 59,
+        "residue_name": "W",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 83,
-        "aa_name": "E",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 83,
+        "residue_name": "E",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 59,
-        "aa_name": "W",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 59,
+        "residue_name": "W",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 83,
-        "aa_name": "E",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 83,
+        "residue_name": "E",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 59,
-        "aa_name": "W",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 59,
+        "residue_name": "W",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 81,
-        "aa_name": "G",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 85,
+        "residue_name": "T",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "PICATION",
-      "node1": {
-        "aa_index": 59,
-        "aa_name": "W",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "PICATION",
+      "source_node": {
+        "residue_index": 59,
+        "residue_name": "W",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 151,
-        "aa_name": "R",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 151,
+        "residue_name": "R",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 60,
-        "aa_name": "H",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 60,
+        "residue_name": "H",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 80,
-        "aa_name": "Y",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 80,
+        "residue_name": "Y",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 60,
-        "aa_name": "H",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 60,
+        "residue_name": "H",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 80,
-        "aa_name": "Y",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 80,
+        "residue_name": "Y",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 60,
-        "aa_name": "H",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 60,
+        "residue_name": "H",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 82,
-        "aa_name": "W",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 82,
+        "residue_name": "W",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 60,
-        "aa_name": "H",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 60,
+        "residue_name": "H",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 82,
-        "aa_name": "W",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 82,
+        "residue_name": "W",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "PIPISTACK",
-      "node1": {
-        "aa_index": 60,
-        "aa_name": "H",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "PIPISTACK",
+      "source_node": {
+        "residue_index": 60,
+        "residue_name": "H",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 80,
-        "aa_name": "Y",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 80,
+        "residue_name": "Y",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "PIPISTACK",
-      "node1": {
-        "aa_index": 60,
-        "aa_name": "H",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "PIPISTACK",
+      "source_node": {
+        "residue_index": 60,
+        "residue_name": "H",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 82,
-        "aa_name": "W",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 82,
+        "residue_name": "W",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 61,
-        "aa_name": "G",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 61,
+        "residue_name": "G",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 81,
-        "aa_name": "G",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 81,
+        "residue_name": "G",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 61,
-        "aa_name": "G",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 61,
+        "residue_name": "G",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 81,
-        "aa_name": "G",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 81,
+        "residue_name": "G",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 62,
-        "aa_name": "L",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 63,
+        "residue_name": "Y",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 79,
-        "aa_name": "G",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 101,
+        "residue_name": "T",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 62,
-        "aa_name": "L",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 63,
+        "residue_name": "Y",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 80,
-        "aa_name": "Y",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 79,
+        "residue_name": "G",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 63,
-        "aa_name": "Y",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 63,
+        "residue_name": "Y",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 101,
-        "aa_name": "T",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 79,
+        "residue_name": "G",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 63,
-        "aa_name": "Y",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 63,
+        "residue_name": "Y",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 79,
-        "aa_name": "G",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 101,
+        "residue_name": "T",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 63,
-        "aa_name": "Y",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 63,
+        "residue_name": "Y",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 79,
-        "aa_name": "G",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 101,
+        "residue_name": "T",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 63,
-        "aa_name": "Y",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 63,
+        "residue_name": "Y",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 101,
-        "aa_name": "T",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 77,
+        "residue_name": "I",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 63,
-        "aa_name": "Y",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 63,
+        "residue_name": "Y",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 101,
-        "aa_name": "T",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 79,
+        "residue_name": "G",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 63,
-        "aa_name": "Y",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 65,
+        "residue_name": "M",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 77,
-        "aa_name": "I",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 77,
+        "residue_name": "I",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 63,
-        "aa_name": "Y",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 65,
+        "residue_name": "M",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 79,
-        "aa_name": "G",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 77,
+        "residue_name": "I",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 65,
-        "aa_name": "M",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 67,
+        "residue_name": "F",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 77,
-        "aa_name": "I",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 75,
+        "residue_name": "E",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 65,
-        "aa_name": "M",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 67,
+        "residue_name": "F",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 77,
-        "aa_name": "I",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 75,
+        "residue_name": "E",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 67,
-        "aa_name": "F",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 67,
+        "residue_name": "F",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 75,
-        "aa_name": "E",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 74,
+        "residue_name": "W",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 67,
-        "aa_name": "F",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 67,
+        "residue_name": "F",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 75,
-        "aa_name": "E",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 75,
+        "residue_name": "E",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 67,
-        "aa_name": "F",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 67,
+        "residue_name": "F",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 74,
-        "aa_name": "W",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 75,
+        "residue_name": "E",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 67,
-        "aa_name": "F",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 67,
+        "residue_name": "F",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 75,
-        "aa_name": "E",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 75,
+        "residue_name": "E",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 67,
-        "aa_name": "F",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "PIPISTACK",
+      "source_node": {
+        "residue_index": 67,
+        "residue_name": "F",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 75,
-        "aa_name": "E",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 147,
+        "residue_name": "F",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 67,
-        "aa_name": "F",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 68,
+        "residue_name": "K",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 75,
-        "aa_name": "E",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 72,
+        "residue_name": "N",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "PIPISTACK",
-      "node1": {
-        "aa_index": 67,
-        "aa_name": "F",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 68,
+        "residue_name": "K",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 147,
-        "aa_name": "F",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 72,
+        "residue_name": "N",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 68,
-        "aa_name": "K",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "PICATION",
+      "source_node": {
+        "residue_index": 68,
+        "residue_name": "K",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 72,
-        "aa_name": "N",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 74,
+        "residue_name": "W",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 68,
-        "aa_name": "K",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 69,
+        "residue_name": "D",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 72,
-        "aa_name": "N",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 107,
+        "residue_name": "R",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "PICATION",
-      "node1": {
-        "aa_index": 68,
-        "aa_name": "K",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 69,
+        "residue_name": "D",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 74,
-        "aa_name": "W",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 72,
+        "residue_name": "N",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 69,
-        "aa_name": "D",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 69,
+        "residue_name": "D",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 107,
-        "aa_name": "R",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 73,
+        "residue_name": "K",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 69,
-        "aa_name": "D",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 69,
+        "residue_name": "D",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 72,
-        "aa_name": "N",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 73,
+        "residue_name": "K",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 69,
-        "aa_name": "D",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 69,
+        "residue_name": "D",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 73,
-        "aa_name": "K",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 73,
+        "residue_name": "K",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 69,
-        "aa_name": "D",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 71,
+        "residue_name": "W",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 73,
-        "aa_name": "K",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 107,
+        "residue_name": "R",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 69,
-        "aa_name": "D",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 71,
+        "residue_name": "W",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 73,
-        "aa_name": "K",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 109,
+        "residue_name": "N",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 71,
-        "aa_name": "W",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "IONIC",
+      "source_node": {
+        "residue_index": 73,
+        "residue_name": "K",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 107,
-        "aa_name": "R",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 108,
+        "residue_name": "D",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 73,
-        "aa_name": "K",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 74,
+        "residue_name": "W",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 108,
-        "aa_name": "D",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 112,
+        "residue_name": "Y",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "IONIC",
-      "node1": {
-        "aa_index": 73,
-        "aa_name": "K",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 75,
+        "residue_name": "E",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 108,
-        "aa_name": "D",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 107,
+        "residue_name": "R",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 73,
-        "aa_name": "K",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 76,
+        "residue_name": "P",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 108,
-        "aa_name": "D",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 105,
+        "residue_name": "T",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 75,
-        "aa_name": "E",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 77,
+        "residue_name": "I",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 107,
-        "aa_name": "R",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 105,
+        "residue_name": "T",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 76,
-        "aa_name": "P",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 77,
+        "residue_name": "I",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 105,
-        "aa_name": "T",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 105,
+        "residue_name": "T",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 77,
-        "aa_name": "I",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 78,
+        "residue_name": "A",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 105,
-        "aa_name": "T",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 104,
+        "residue_name": "V",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 77,
-        "aa_name": "I",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 78,
+        "residue_name": "A",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 105,
-        "aa_name": "T",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 104,
+        "residue_name": "V",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 78,
-        "aa_name": "A",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 78,
+        "residue_name": "A",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 104,
-        "aa_name": "V",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 104,
+        "residue_name": "V",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 78,
-        "aa_name": "A",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 80,
+        "residue_name": "Y",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 104,
-        "aa_name": "V",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 102,
+        "residue_name": "A",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 78,
-        "aa_name": "A",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 80,
+        "residue_name": "Y",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 104,
-        "aa_name": "V",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 102,
+        "residue_name": "A",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 80,
-        "aa_name": "Y",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "PIPISTACK",
+      "source_node": {
+        "residue_index": 80,
+        "residue_name": "Y",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 102,
-        "aa_name": "A",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 100,
+        "residue_name": "F",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 80,
-        "aa_name": "Y",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 82,
+        "residue_name": "W",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 102,
-        "aa_name": "A",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 100,
+        "residue_name": "F",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "PIPISTACK",
-      "node1": {
-        "aa_index": 80,
-        "aa_name": "Y",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 82,
+        "residue_name": "W",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 100,
-        "aa_name": "F",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 100,
+        "residue_name": "F",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 82,
-        "aa_name": "W",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 82,
+        "residue_name": "W",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 100,
-        "aa_name": "F",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 100,
+        "residue_name": "F",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 82,
-        "aa_name": "W",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "PIPISTACK",
+      "source_node": {
+        "residue_index": 82,
+        "residue_name": "W",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 100,
-        "aa_name": "F",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 100,
+        "residue_name": "F",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 82,
-        "aa_name": "W",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 83,
+        "residue_name": "E",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 100,
-        "aa_name": "F",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 123,
+        "residue_name": "S",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "PIPISTACK",
-      "node1": {
-        "aa_index": 82,
-        "aa_name": "W",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 83,
+        "residue_name": "E",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 100,
-        "aa_name": "F",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 132,
+        "residue_name": "Q",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 83,
-        "aa_name": "E",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 84,
+        "residue_name": "S",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 132,
-        "aa_name": "Q",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 98,
+        "residue_name": "L",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 84,
-        "aa_name": "S",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 84,
+        "residue_name": "S",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 98,
-        "aa_name": "L",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 98,
+        "residue_name": "L",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 84,
-        "aa_name": "S",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 85,
+        "residue_name": "T",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 98,
-        "aa_name": "L",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 95,
+        "residue_name": "H",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 85,
-        "aa_name": "T",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 85,
+        "residue_name": "T",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 95,
-        "aa_name": "H",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 96,
+        "residue_name": "L",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 86,
-        "aa_name": "W",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 86,
+        "residue_name": "W",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 96,
-        "aa_name": "L",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 96,
+        "residue_name": "L",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 86,
-        "aa_name": "W",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 86,
+        "residue_name": "W",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 96,
-        "aa_name": "L",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 96,
+        "residue_name": "L",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 91,
-        "aa_name": "D",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 91,
+        "residue_name": "D",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 94,
-        "aa_name": "F",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 94,
+        "residue_name": "F",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 93,
-        "aa_name": "N",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 93,
+        "residue_name": "N",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 127,
-        "aa_name": "G",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 127,
+        "residue_name": "G",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 94,
-        "aa_name": "F",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 93,
+        "residue_name": "N",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 126,
-        "aa_name": "Y",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 126,
+        "residue_name": "Y",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 94,
-        "aa_name": "F",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 94,
+        "residue_name": "F",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 126,
-        "aa_name": "Y",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 126,
+        "residue_name": "Y",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "PIPISTACK",
-      "node1": {
-        "aa_index": 94,
-        "aa_name": "F",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 94,
+        "residue_name": "F",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 126,
-        "aa_name": "Y",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 126,
+        "residue_name": "Y",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 95,
-        "aa_name": "H",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "PIPISTACK",
+      "source_node": {
+        "residue_index": 94,
+        "residue_name": "F",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 125,
-        "aa_name": "G",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 126,
+        "residue_name": "Y",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 95,
-        "aa_name": "H",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 95,
+        "residue_name": "H",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 125,
-        "aa_name": "G",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 125,
+        "residue_name": "G",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 95,
-        "aa_name": "H",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 95,
+        "residue_name": "H",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 127,
-        "aa_name": "G",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 125,
+        "residue_name": "G",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 97,
-        "aa_name": "G",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 95,
+        "residue_name": "H",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 123,
-        "aa_name": "S",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 127,
+        "residue_name": "G",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 97,
-        "aa_name": "G",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 97,
+        "residue_name": "G",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 123,
-        "aa_name": "S",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 123,
+        "residue_name": "S",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 99,
-        "aa_name": "G",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 97,
+        "residue_name": "G",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 121,
-        "aa_name": "L",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 123,
+        "residue_name": "S",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 99,
-        "aa_name": "G",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 99,
+        "residue_name": "G",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 121,
-        "aa_name": "L",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 121,
+        "residue_name": "L",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 100,
-        "aa_name": "F",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 99,
+        "residue_name": "G",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 119,
-        "aa_name": "L",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 121,
+        "residue_name": "L",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 100,
-        "aa_name": "F",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 100,
+        "residue_name": "F",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 120,
-        "aa_name": "P",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 119,
+        "residue_name": "L",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 100,
-        "aa_name": "F",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 100,
+        "residue_name": "F",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 121,
-        "aa_name": "L",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 120,
+        "residue_name": "P",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 101,
-        "aa_name": "T",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 101,
+        "residue_name": "T",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 119,
-        "aa_name": "L",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 119,
+        "residue_name": "L",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 101,
-        "aa_name": "T",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 101,
+        "residue_name": "T",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 119,
-        "aa_name": "L",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 119,
+        "residue_name": "L",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 102,
-        "aa_name": "A",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 102,
+        "residue_name": "A",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 117,
-        "aa_name": "V",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 117,
+        "residue_name": "V",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 103,
-        "aa_name": "G",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 103,
+        "residue_name": "G",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 117,
-        "aa_name": "V",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 117,
+        "residue_name": "V",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 103,
-        "aa_name": "G",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 103,
+        "residue_name": "G",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 117,
-        "aa_name": "V",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 117,
+        "residue_name": "V",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 104,
-        "aa_name": "V",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 104,
+        "residue_name": "V",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 115,
-        "aa_name": "L",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 115,
+        "residue_name": "L",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 105,
-        "aa_name": "T",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 105,
+        "residue_name": "T",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 115,
-        "aa_name": "L",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 115,
+        "residue_name": "L",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 105,
-        "aa_name": "T",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 105,
+        "residue_name": "T",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 115,
-        "aa_name": "L",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 115,
+        "residue_name": "L",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 105,
-        "aa_name": "T",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 105,
+        "residue_name": "T",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 115,
-        "aa_name": "L",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 117,
+        "residue_name": "V",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 105,
-        "aa_name": "T",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 106,
+        "residue_name": "A",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 117,
-        "aa_name": "V",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 112,
+        "residue_name": "Y",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 106,
-        "aa_name": "A",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 107,
+        "residue_name": "R",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 112,
-        "aa_name": "Y",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 110,
+        "residue_name": "W",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 106,
-        "aa_name": "A",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 107,
+        "residue_name": "R",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 112,
-        "aa_name": "Y",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 112,
+        "residue_name": "Y",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 107,
-        "aa_name": "R",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 107,
+        "residue_name": "R",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 110,
-        "aa_name": "W",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 112,
+        "residue_name": "Y",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 107,
-        "aa_name": "R",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 108,
+        "residue_name": "D",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 112,
-        "aa_name": "Y",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 111,
+        "residue_name": "N",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 107,
-        "aa_name": "R",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 108,
+        "residue_name": "D",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 112,
-        "aa_name": "Y",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 111,
+        "residue_name": "N",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 108,
-        "aa_name": "D",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 108,
+        "residue_name": "D",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 111,
-        "aa_name": "N",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 112,
+        "residue_name": "Y",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 108,
-        "aa_name": "D",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 110,
+        "residue_name": "W",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 111,
-        "aa_name": "N",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 113,
+        "residue_name": "I",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 108,
-        "aa_name": "D",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 110,
+        "residue_name": "W",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 112,
-        "aa_name": "Y",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 113,
+        "residue_name": "I",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 110,
-        "aa_name": "W",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 110,
+        "residue_name": "W",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 113,
-        "aa_name": "I",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 115,
+        "residue_name": "L",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 110,
-        "aa_name": "W",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 119,
+        "residue_name": "L",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 113,
-        "aa_name": "I",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 134,
+        "residue_name": "T",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 110,
-        "aa_name": "W",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 119,
+        "residue_name": "L",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 115,
-        "aa_name": "L",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 136,
+        "residue_name": "I",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 119,
-        "aa_name": "L",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 120,
+        "residue_name": "P",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 134,
-        "aa_name": "T",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 134,
+        "residue_name": "T",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 119,
-        "aa_name": "L",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 120,
+        "residue_name": "P",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 136,
-        "aa_name": "I",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 134,
+        "residue_name": "T",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 119,
-        "aa_name": "L",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 120,
+        "residue_name": "P",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 137,
-        "aa_name": "P",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 135,
+        "residue_name": "Y",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 120,
-        "aa_name": "P",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 121,
+        "residue_name": "L",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 135,
-        "aa_name": "Y",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 134,
+        "residue_name": "T",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 122,
-        "aa_name": "A",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 122,
+        "residue_name": "A",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 133,
-        "aa_name": "M",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 133,
+        "residue_name": "M",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 122,
-        "aa_name": "A",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 122,
+        "residue_name": "A",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 133,
-        "aa_name": "M",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 133,
+        "residue_name": "M",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 122,
-        "aa_name": "A",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 122,
+        "residue_name": "A",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 132,
-        "aa_name": "Q",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 132,
+        "residue_name": "Q",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 123,
-        "aa_name": "S",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 123,
+        "residue_name": "S",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 131,
-        "aa_name": "F",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 131,
+        "residue_name": "F",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 124,
-        "aa_name": "V",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 124,
+        "residue_name": "V",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 131,
-        "aa_name": "F",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 131,
+        "residue_name": "F",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 124,
-        "aa_name": "V",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 124,
+        "residue_name": "V",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 131,
-        "aa_name": "F",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 131,
+        "residue_name": "F",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 124,
-        "aa_name": "V",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 124,
+        "residue_name": "V",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 130,
-        "aa_name": "T",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 130,
+        "residue_name": "T",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 125,
-        "aa_name": "G",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 125,
+        "residue_name": "G",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 129,
-        "aa_name": "V",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 129,
+        "residue_name": "V",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 125,
-        "aa_name": "G",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 125,
+        "residue_name": "G",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 130,
-        "aa_name": "T",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 130,
+        "residue_name": "T",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 126,
-        "aa_name": "Y",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 126,
+        "residue_name": "Y",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 129,
-        "aa_name": "V",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 129,
+        "residue_name": "V",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 126,
-        "aa_name": "Y",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 126,
+        "residue_name": "Y",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 129,
-        "aa_name": "V",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 129,
+        "residue_name": "V",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 126,
-        "aa_name": "Y",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 126,
+        "residue_name": "Y",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 129,
-        "aa_name": "V",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 129,
+        "residue_name": "V",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 128,
-        "aa_name": "P",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 128,
+        "residue_name": "P",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 153,
-        "aa_name": "Q",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 153,
+        "residue_name": "Q",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 130,
-        "aa_name": "T",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 130,
+        "residue_name": "T",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 151,
-        "aa_name": "R",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 151,
+        "residue_name": "R",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 130,
-        "aa_name": "T",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 130,
+        "residue_name": "T",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 151,
-        "aa_name": "R",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 151,
+        "residue_name": "R",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 132,
-        "aa_name": "Q",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 132,
+        "residue_name": "Q",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 149,
-        "aa_name": "W",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 149,
+        "residue_name": "W",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 132,
-        "aa_name": "Q",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 132,
+        "residue_name": "Q",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 149,
-        "aa_name": "W",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 149,
+        "residue_name": "W",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 132,
-        "aa_name": "Q",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 132,
+        "residue_name": "Q",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 149,
-        "aa_name": "W",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 149,
+        "residue_name": "W",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 132,
-        "aa_name": "Q",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 132,
+        "residue_name": "Q",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 151,
-        "aa_name": "R",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 151,
+        "residue_name": "R",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 133,
-        "aa_name": "M",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 133,
+        "residue_name": "M",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 147,
-        "aa_name": "F",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 147,
+        "residue_name": "F",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 134,
-        "aa_name": "T",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 134,
+        "residue_name": "T",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 147,
-        "aa_name": "F",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 147,
+        "residue_name": "F",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 134,
-        "aa_name": "T",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 134,
+        "residue_name": "T",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 147,
-        "aa_name": "F",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 147,
+        "residue_name": "F",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 134,
-        "aa_name": "T",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 134,
+        "residue_name": "T",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 147,
-        "aa_name": "F",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 147,
+        "residue_name": "F",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 134,
-        "aa_name": "T",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 135,
+        "residue_name": "Y",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 147,
-        "aa_name": "F",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 144,
+        "residue_name": "N",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 135,
-        "aa_name": "Y",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 135,
+        "residue_name": "Y",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 144,
-        "aa_name": "N",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 146,
+        "residue_name": "Y",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 135,
-        "aa_name": "Y",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 135,
+        "residue_name": "Y",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 146,
-        "aa_name": "Y",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 146,
+        "residue_name": "Y",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 135,
-        "aa_name": "Y",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "PIPISTACK",
+      "source_node": {
+        "residue_index": 135,
+        "residue_name": "Y",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 146,
-        "aa_name": "Y",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 146,
+        "residue_name": "Y",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "PIPISTACK",
-      "node1": {
-        "aa_index": 135,
-        "aa_name": "Y",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 136,
+        "residue_name": "I",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 146,
-        "aa_name": "Y",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 144,
+        "residue_name": "N",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 136,
-        "aa_name": "I",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 136,
+        "residue_name": "I",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 144,
-        "aa_name": "N",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 145,
+        "residue_name": "V",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 136,
-        "aa_name": "I",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 138,
+        "residue_name": "G",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 145,
-        "aa_name": "V",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 142,
+        "residue_name": "N",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 138,
-        "aa_name": "G",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 139,
+        "residue_name": "T",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 142,
-        "aa_name": "N",
-        "node_type": "amino_acid"
+      "target_node": {
+        "residue_index": 142,
+        "residue_name": "N",
+        "node_type": "residue"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 139,
-        "aa_name": "T",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 41,
+        "residue_name": "E",
+        "node_type": "residue"
       },
-      "node2": {
-        "aa_index": 142,
-        "aa_name": "N",
-        "node_type": "amino_acid"
-      }
-    },
-    {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 139,
-        "aa_name": "T",
-        "node_type": "amino_acid"
-      },
-      "node2": {
-        "aa_index": 142,
-        "aa_name": "N",
-        "node_type": "amino_acid"
-      }
-    },
-    {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 139,
-        "aa_name": "T",
-        "node_type": "amino_acid"
-      },
-      "node2": {
-        "aa_index": 142,
-        "aa_name": "N",
-        "node_type": "amino_acid"
-      }
-    },
-    {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 41,
-        "aa_name": "E",
-        "node_type": "amino_acid"
-      },
-      "node2": {
+      "target_node": {
         "substrate_index": 1,
         "substrate_name": "docked_glucose",
         "node_type": "substrate"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 70,
-        "aa_name": "S",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 70,
+        "residue_name": "S",
+        "node_type": "residue"
       },
-      "node2": {
+      "target_node": {
         "substrate_index": 1,
         "substrate_name": "docked_glucose",
         "node_type": "substrate"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 70,
-        "aa_name": "S",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 70,
+        "residue_name": "S",
+        "node_type": "residue"
       },
-      "node2": {
+      "target_node": {
         "substrate_index": 2,
         "substrate_name": "docked_fructose",
         "node_type": "substrate"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 75,
-        "aa_name": "E",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 75,
+        "residue_name": "E",
+        "node_type": "residue"
       },
-      "node2": {
+      "target_node": {
         "substrate_index": 1,
         "substrate_name": "docked_glucose",
         "node_type": "substrate"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 107,
-        "aa_name": "R",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 107,
+        "residue_name": "R",
+        "node_type": "residue"
       },
-      "node2": {
+      "target_node": {
         "substrate_index": 2,
         "substrate_name": "docked_fructose",
         "node_type": "substrate"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 107,
-        "aa_name": "R",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 107,
+        "residue_name": "R",
+        "node_type": "residue"
       },
-      "node2": {
+      "target_node": {
         "substrate_index": 1,
         "substrate_name": "docked_glucose",
         "node_type": "substrate"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 107,
-        "aa_name": "R",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 107,
+        "residue_name": "R",
+        "node_type": "residue"
       },
-      "node2": {
+      "target_node": {
         "substrate_index": 2,
         "substrate_name": "docked_fructose",
         "node_type": "substrate"
       }
     },
     {
-      "interaction": "HBOND",
-      "node1": {
-        "aa_index": 142,
-        "aa_name": "N",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "HBOND",
+      "source_node": {
+        "residue_index": 142,
+        "residue_name": "N",
+        "node_type": "residue"
       },
-      "node2": {
+      "target_node": {
         "substrate_index": 2,
         "substrate_name": "docked_fructose",
         "node_type": "substrate"
       }
     },
     {
-      "interaction": "VDW",
-      "node1": {
-        "aa_index": 142,
-        "aa_name": "N",
-        "node_type": "amino_acid"
+      "molecular_interaction_type": "VDW",
+      "source_node": {
+        "residue_index": 142,
+        "residue_name": "N",
+        "node_type": "residue"
       },
-      "node2": {
+      "target_node": {
         "substrate_index": 2,
         "substrate_name": "docked_fructose",
         "node_type": "substrate"
       }
     }
   ],
-  "interactions_statistics": {
-    "overall": {
-      "count": {
-        "HBOND": 133,
-        "IONIC": 1,
-        "VDW": 121,
-        "PIPISTACK": 21,
-        "PICATION": 3,
-        "SSBOND": 0
+  "molecular_interaction_statistics": {
+    "overall_molecular_interaction_statistics": {
+      "interaction_count": {
+        "hydrogen_bond_count": 135,
+        "ionic_bond_count": 1,
+        "van_der_waals_contact_count": 116,
+        "pi_pi_stacking_count": 21,
+        "pi_cation_interaction_count": 3,
+        "disulfide_bond_count": 0
       },
-      "unique_pair_count": {
-        "HBOND": 96,
-        "IONIC": 1,
-        "VDW": 107,
-        "PIPISTACK": 21,
-        "PICATION": 3,
-        "SSBOND": 0
+      "unique_pair_interaction_count": {
+        "hydrogen_bond_count": 98,
+        "ionic_bond_count": 1,
+        "van_der_waals_contact_count": 106,
+        "pi_pi_stacking_count": 21,
+        "pi_cation_interaction_count": 3,
+        "disulfide_bond_count": 0
       }
     },
-    "intra_protein": {
-      "count": {
-        "HBOND": 127,
-        "IONIC": 1,
-        "VDW": 118,
-        "PIPISTACK": 21,
-        "PICATION": 3,
-        "SSBOND": 0
+    "intra_enzyme_interaction_statistics": {
+      "interaction_count": {
+        "hydrogen_bond_count": 129,
+        "ionic_bond_count": 1,
+        "van_der_waals_contact_count": 113,
+        "pi_pi_stacking_count": 21,
+        "pi_cation_interaction_count": 3,
+        "disulfide_bond_count": 0
       },
-      "unique_pair_count": {
-        "HBOND": 90,
-        "IONIC": 1,
-        "VDW": 104,
-        "PIPISTACK": 21,
-        "PICATION": 3,
-        "SSBOND": 0
+      "unique_pair_interaction_count": {
+        "hydrogen_bond_count": 92,
+        "ionic_bond_count": 1,
+        "van_der_waals_contact_count": 103,
+        "pi_pi_stacking_count": 21,
+        "pi_cation_interaction_count": 3,
+        "disulfide_bond_count": 0
       }
     },
-    "protein_substrate": {
-      "count": {
-        "HBOND": 6,
-        "IONIC": 0,
-        "VDW": 3,
-        "PIPISTACK": 0,
-        "PICATION": 0,
-        "SSBOND": 0
+    "enzyme_substrate_interaction_statistics": {
+      "interaction_count": {
+        "hydrogen_bond_count": 6,
+        "ionic_bond_count": 0,
+        "van_der_waals_contact_count": 3,
+        "pi_pi_stacking_count": 0,
+        "pi_cation_interaction_count": 0,
+        "disulfide_bond_count": 0
       },
-      "unique_pair_count": {
-        "HBOND": 6,
-        "IONIC": 0,
-        "VDW": 3,
-        "PIPISTACK": 0,
-        "PICATION": 0,
-        "SSBOND": 0
+      "unique_pair_interaction_count": {
+        "hydrogen_bond_count": 6,
+        "ionic_bond_count": 0,
+        "van_der_waals_contact_count": 3,
+        "pi_pi_stacking_count": 0,
+        "pi_cation_interaction_count": 0,
+        "disulfide_bond_count": 0
       }
     }
   }

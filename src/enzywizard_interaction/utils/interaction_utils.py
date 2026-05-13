@@ -1350,3 +1350,84 @@ def find_disulfide_bond_hits(cys_sg_atoms: List[Dict[str, Any]],ss_max_distance_
 
 '''
 '''
+
+
+def postprocess_interaction_report_to_schema(raw_report: Dict[str, Any]) -> Dict[str, Any]:
+    """
+    Postprocess the raw EnzyWizard-Interaction report into the new JSON Schema format.
+    """
+
+    interaction_type_field_map: Dict[str, str] = {
+        "HBOND": "hydrogen_bond_count",
+        "IONIC": "ionic_bond_count",
+        "VDW": "van_der_waals_contact_count",
+        "PIPISTACK": "pi_pi_stacking_count",
+        "PICATION": "pi_cation_interaction_count",
+        "SSBOND": "disulfide_bond_count",
+    }
+
+    statistics_scope_field_map: Dict[str, str] = {
+        "overall": "overall_molecular_interaction_statistics",
+        "intra_protein": "intra_enzyme_interaction_statistics",
+        "protein_substrate": "enzyme_substrate_interaction_statistics",
+    }
+
+    def map_node(raw_node: Dict[str, Any]) -> Dict[str, Any]:
+        raw_node_type = raw_node.get("node_type")
+
+        if raw_node_type == "amino_acid":
+            return {
+                "residue_index": raw_node.get("aa_index"),
+                "residue_name": raw_node.get("aa_name"),
+                "node_type": "residue",
+            }
+
+        return {
+            "substrate_index": raw_node.get("substrate_index"),
+            "substrate_name": raw_node.get("substrate_name"),
+            "node_type": raw_node.get("node_type"),
+        }
+
+    def map_interaction_count(raw_count: Dict[str, Any]) -> Dict[str, Any]:
+        return {
+            schema_field: raw_count.get(raw_interaction_type)
+            for raw_interaction_type, schema_field in interaction_type_field_map.items()
+        }
+
+    def map_scope_statistics(raw_scope_statistics: Dict[str, Any]) -> Dict[str, Any]:
+        return {
+            "interaction_count": map_interaction_count(
+                raw_scope_statistics.get("count", {})
+            ),
+            "unique_pair_interaction_count": map_interaction_count(
+                raw_scope_statistics.get("unique_pair_count", {})
+            ),
+        }
+
+    molecular_interactions: List[Dict[str, Any]] = []
+
+    for raw_interaction in raw_report.get("interactions", []):
+        molecular_interactions.append(
+            {
+                "molecular_interaction_type": raw_interaction.get("interaction"),
+                "source_node": map_node(raw_interaction.get("node1", {})),
+                "target_node": map_node(raw_interaction.get("node2", {})),
+            }
+        )
+
+    raw_statistics = raw_report.get("interactions_statistics", {})
+
+    molecular_interaction_statistics: Dict[str, Any] = {}
+
+    for raw_scope, schema_scope in statistics_scope_field_map.items():
+        molecular_interaction_statistics[schema_scope] = map_scope_statistics(
+            raw_statistics.get(raw_scope, {})
+        )
+
+    schema_report: Dict[str, Any] = {
+        "report_type": raw_report.get("output_type"),
+        "molecular_interactions": molecular_interactions,
+        "molecular_interaction_statistics": molecular_interaction_statistics,
+    }
+
+    return schema_report
