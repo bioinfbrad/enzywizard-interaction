@@ -21,7 +21,7 @@ analysis and residue interaction graph construction.
 
 Example command:
 
-enzywizard-interaction -i examples/input/cleaned_3GP6.cif -s docked_glucose,docked_fructose -d examples/input/ -o examples/output/
+enzywizard-interaction -i examples/input/cleaned_3GP6.cif -s "docked_glucose;docked_fructose" -d examples/input/ -o examples/output/
 
 
 # input parameters:
@@ -32,11 +32,11 @@ Path to the input cleaned protein structure file in CIF or PDB format.
 
 -s, --substrate_names
 Optional.
-Input substrate names separated by ','.
+Input substrate names separated by ';'.
 
 Examples:
 - docked_glucose
-- docked_glucose,docked_fructose
+- docked_glucose;docked_fructose
 
 Each substrate name must match the corresponding docked substrate SDF file name
 in substrate_dir.

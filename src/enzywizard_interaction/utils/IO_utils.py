@@ -187,7 +187,7 @@ def load_substrate_name_and_mol_3d_list(substrate_names: str,substrate_dir: str 
         logger.print(f"[ERROR] Invalid substrate_dir: {substrate_dir}")
         return None
 
-    substrate_name_list = [x.strip() for x in str(substrate_names).split(",")]
+    substrate_name_list = [x.strip() for x in str(substrate_names).split(";")]
     if len(substrate_name_list) == 0:
         logger.print("[ERROR] substrate_names is empty.")
         return None

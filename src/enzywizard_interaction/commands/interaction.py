@@ -6,7 +6,7 @@ from ..services.interaction_service import run_interaction_service
 
 def add_interaction_parser(parser: ArgumentParser) -> None:
     parser.add_argument("-i","--input_path",required=True,help="Path to the input cleaned protein structure file in CIF or PDB format.")
-    parser.add_argument("-s","--substrate_names",required=False,default=None,help="Input substrate names separated by ','. Each substrate name must match the corresponding docked SDF file name in substrate_dir. If omitted together with --substrate_dir, only intra-protein interactions will be calculated.")
+    parser.add_argument("-s","--substrate_names",required=False,default=None,help="Input substrate names separated by ';'. Each substrate name must match the corresponding docked SDF file name in substrate_dir. If omitted together with --substrate_dir, only intra-protein interactions will be calculated.")
     parser.add_argument("-d","--substrate_dir",required=False,default=None,help="Optional path to a directory containing docked substrate SDF files. Must be provided together with --substrate_names.")
     parser.add_argument("-o","--output_dir",required=True,help="Directory to save the interaction JSON report.")
     parser.add_argument("--hbond_da_max_distance",type=float,default=3.9,help="Maximum donor-acceptor distance cutoff for hydrogen bond detection (default: 3.9).")
@@ -36,4 +36,3 @@ def run_interaction(args: Namespace) -> None:
         ring_cation_angle_cutoff_deg=args.pication_angle_cutoff,
         ss_max_distance_A=args.ssbond_max_distance,
     )
-
