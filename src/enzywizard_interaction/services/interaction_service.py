@@ -126,15 +126,18 @@ def run_interaction_service(
 
     structure = load_protein_structure(input_path, name, logger)
     if structure is None:
+        logger.print("[ERROR] Failed to load protein structure")
         return False
     logger.print("[INFO] Structure loaded")
 
     modeller = load_openmm_modeller(input_path, logger)
     if modeller is None:
+        logger.print("[ERROR] Failed to load OpenMM Modeller")
         return False
     logger.print("[INFO] OpenMM Modeller loaded")
 
     if not check_cleaned_structure(structure, logger):
+        logger.print("[ERROR] Cleaned structure validation failed")
         return False
     logger.print("[INFO] Structure checked")
 
@@ -156,6 +159,7 @@ def run_interaction_service(
             logger=logger,
         )
         if loaded is None:
+            logger.print("[ERROR] Failed to load substrate SDF file(s)")
             return False
 
         substrate_name_list, ligand_mol_list = loaded
@@ -169,6 +173,7 @@ def run_interaction_service(
             docked_heavy_atom_distance_cutoff_A=docked_heavy_atom_distance_cutoff_A,
         )
         if filtered is None:
+            logger.print("[ERROR] Failed to filter valid docked substrate(s)")
             return False
 
         valid_substrate_name_list, valid_ligand_mol_list = filtered
@@ -207,13 +212,21 @@ def run_interaction_service(
         logger=logger,
     )
     if interaction_statistics is None:
+        logger.print("[ERROR] Failed to calculate interaction statistics.")
         return False
 
+    try:
+        report = generate_interaction_report(
+            interaction_list=interaction_list,
+            interaction_statistics=interaction_statistics,
+        )
+    except Exception as e:
+        logger.print(f"[ERROR] Failed to generate interaction report: {e}")
+        return False
 
-    report = generate_interaction_report(
-        interaction_list=interaction_list,
-        interaction_statistics=interaction_statistics,
-    )
+    if report is None:
+        logger.print("[ERROR] Failed to generate interaction report.")
+        return False
 
     if use_substrate_mode:
         json_name = f"interaction_report_{name}_{substrate_names}.json"
@@ -222,7 +235,11 @@ def run_interaction_service(
 
     json_name = get_optimized_filename(json_name)
     json_report_path = output_dir / json_name
-    write_json_from_dict_inline_leaf_lists(report, json_report_path)
+    try:
+        write_json_from_dict_inline_leaf_lists(report, json_report_path)
+    except Exception as e:
+        logger.print(f"[ERROR] Failed to write report JSON to {json_report_path}: {e}")
+        return False
     logger.print(f"[INFO] Report JSON saved: {json_report_path}")
 
     logger.print("[INFO] Interaction processing finished")

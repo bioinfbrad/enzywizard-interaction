@@ -1325,31 +1325,10 @@ def summarize_interaction_counts(interaction_list: List[Dict[str, Any]],logger) 
     interaction_types = ["HBOND", "IONIC", "VDW", "PIPISTACK", "PICATION", "SSBOND"]
     scope_types = ["overall", "intra_protein", "protein_substrate"]
 
-    result: Dict[str, Dict[str, Dict[str, int]]] = {
-        scope: {
-            "count": {interaction_type: 0 for interaction_type in interaction_types},
-            "unique_pair_count": {interaction_type: 0 for interaction_type in interaction_types},
-        }
+    result: Dict[str, Dict[str, int]] = {
+        scope: {interaction_type: 0 for interaction_type in interaction_types}
         for scope in scope_types
     }
-
-    unique_pair_sets: Dict[str, Dict[str, Set[Tuple[Tuple[str, Any], Tuple[str, Any]]]]] = {
-        scope: {
-            interaction_type: set() for interaction_type in interaction_types
-        }
-        for scope in scope_types
-    }
-
-    def get_node_id(node: Dict[str, Any]) -> Tuple[str, Any]:
-        node_type = node.get("node_type")
-
-        if node_type == "amino_acid":
-            return ("amino_acid", node.get("aa_index"))
-
-        if node_type == "substrate":
-            return ("substrate", node.get("substrate_index"))
-
-        return ("unknown", None)
 
     def get_scope(node1: Dict[str, Any], node2: Dict[str, Any]) -> str | None:
         node1_type = node1.get("node_type")
@@ -1388,35 +1367,15 @@ def summarize_interaction_counts(interaction_list: List[Dict[str, Any]],logger) 
             logger.print("[ERROR] Unsupported node type combination in interaction item.")
             return None
 
-        result["overall"]["count"][interaction] += 1
-        result[scope]["count"][interaction] += 1
-
-        id1 = get_node_id(node1)
-        id2 = get_node_id(node2)
-
-        if id1[1] is None or id2[1] is None:
-            continue
-
-        if str(id1) < str(id2):
-            pair = (id1, id2)
-        else:
-            pair = (id2, id1)
-
-        unique_pair_sets["overall"][interaction].add(pair)
-        unique_pair_sets[scope][interaction].add(pair)
-
-    for scope in scope_types:
-        for interaction_type in interaction_types:
-            result[scope]["unique_pair_count"][interaction_type] = len(
-                unique_pair_sets[scope][interaction_type]
-            )
+        result["overall"][interaction] += 1
+        result[scope][interaction] += 1
 
     return result
 
 
 def generate_interaction_report(
     interaction_list: List[Dict[str, Any]],
-    interaction_statistics: Dict[str, Dict[str, Dict[str, int]]],
+    interaction_statistics: Dict[str, Dict[str, int]],
 ) -> dict:
 
     raw_report = {

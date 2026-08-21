@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 from argparse import Namespace, ArgumentParser
+import sys
 from ..services.interaction_service import run_interaction_service
 
 
@@ -22,7 +23,7 @@ def add_interaction_parser(parser: ArgumentParser) -> None:
 
 
 def run_interaction(args: Namespace) -> None:
-    run_interaction_service(
+    success = run_interaction_service(
         input_path=args.input_path,
         output_dir=args.output_dir,
         substrate_names=args.substrate_names,
@@ -36,3 +37,5 @@ def run_interaction(args: Namespace) -> None:
         ring_cation_angle_cutoff_deg=args.pication_angle_cutoff,
         ss_max_distance_A=args.ssbond_max_distance,
     )
+    if not success:
+        sys.exit(1)

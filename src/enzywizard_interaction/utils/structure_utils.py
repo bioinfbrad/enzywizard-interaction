@@ -106,8 +106,8 @@ def structure_has_hydrogen(struct: Structure, logger) -> bool:
 
         return False
 
-    except Exception:
-        logger.print(f"[ERROR] Failed to inspect hydrogens in structure")
+    except Exception as e:
+        logger.print(f"[ERROR] Failed to inspect hydrogens in structure: {e}")
         return False
 
 def structure_has_too_few_hydrogens(struct: Structure,logger,min_hydrogen_count: int = 10,min_hydrogen_ratio: float = 0.05) -> bool:
@@ -148,8 +148,7 @@ def structure_has_too_few_hydrogens(struct: Structure,logger,min_hydrogen_count:
 
         return False
 
-    except Exception:
-        logger.print(f"[ERROR] Failed to count hydrogens in structure")
+    except Exception as e:
+        logger.print(f"[ERROR] Failed to count hydrogens in structure: {e}")
         return True
-
 

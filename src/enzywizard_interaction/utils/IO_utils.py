@@ -99,8 +99,8 @@ def write_sdf(mol_3d: Chem.Mol, sdf_path: str | Path, logger: Logger,) -> bool:
             return False
 
         return True
-    except Exception:
-        logger.print("[ERROR] Failed to save Mol(3D) to SDF file.")
+    except Exception as e:
+        logger.print(f"[ERROR] Failed to save Mol(3D) to SDF file: {e}")
         return False
 
 
@@ -130,8 +130,8 @@ def load_sdf_mol_3d(sdf_path: str | Path, logger: Logger) -> Chem.Mol | None:
 
         return mol
 
-    except Exception:
-        logger.print("[ERROR] Failed to read Mol(3D) from SDF file.")
+    except Exception as e:
+        logger.print(f"[ERROR] Failed to read Mol(3D) from SDF file {sdf_path}: {e}")
         return None
 
 
@@ -143,8 +143,8 @@ def load_openmm_modeller(path: str | Path, logger) -> Modeller | None:
 
     try:
         p = Path(path)
-    except Exception:
-        logger.print("[ERROR] Failed to parse path.")
+    except Exception as e:
+        logger.print(f"[ERROR] Failed to parse path: {e}")
         return None
 
     if not p.exists() or p.stat().st_size <= 0:
@@ -164,8 +164,8 @@ def load_openmm_modeller(path: str | Path, logger) -> Modeller | None:
 
         return Modeller(obj.topology, obj.positions)
 
-    except Exception:
-        logger.print(f"[ERROR] Failed to load OpenMM Modeller from {str(p)}")
+    except Exception as e:
+        logger.print(f"[ERROR] Failed to load OpenMM Modeller from {str(p)}: {e}")
         return None
 
 def load_substrate_name_and_mol_3d_list(substrate_names: str,substrate_dir: str | Path,logger: Logger) -> Tuple[List[str], List[Chem.Mol]] | None:
@@ -179,8 +179,8 @@ def load_substrate_name_and_mol_3d_list(substrate_names: str,substrate_dir: str 
 
     try:
         substrate_dir = Path(substrate_dir)
-    except Exception:
-        logger.print("[ERROR] Failed to parse substrate_dir.")
+    except Exception as e:
+        logger.print(f"[ERROR] Failed to parse substrate_dir: {e}")
         return None
 
     if not substrate_dir.exists() or not substrate_dir.is_dir():
