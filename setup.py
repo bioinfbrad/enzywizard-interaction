@@ -26,8 +26,8 @@ setup(
     python_requires=">=3.10",
     install_requires=[
         "biopython>=1.86",          # protein structure handling
-        "rdkit>=2026.03.1",         # cheminformatics for substrates
-        "numpy>=1.23.5",            # numerical backend
+        "rdkit>=2026.3.1",          # cheminformatics for substrates
+        "numpy>=1.23.5,<2",         # numerical backend
         "scipy>=1.15.2",            # KD‑tree acceleration
     ],
     entry_points={
