@@ -12,7 +12,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="enzywizard-interaction",
-    version=__version__,                     # dynamically read from version.py (1.0.1)
+    version=__version__,                     # dynamically read from version.py
     author="bioinfbrad",
     description=(
         "A command‑line tool for calculating protein/protein‑substrate molecular interactions "
